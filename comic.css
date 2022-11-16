@@ -1,0 +1,260 @@
+#logo {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: crimson;
+    font-size: 1.75em;
+    font-family: fantasy;
+    border-style: solid;
+    border-color: crimson;
+    overflow: auto;
+    
+}
+
+#logo img{
+    
+    width: 10%;
+    padding: 5px;
+    overflow: auto;
+}
+
+#logo a {
+    
+    text-decoration: none;
+    color: crimson;
+}
+
+#navbar {
+    
+    text-align: center;
+    
+}
+
+#navbar ul{
+    
+    list-style-type: none;
+    
+}
+
+#navbar img {
+    
+    width:20px;
+    display: none;
+}
+
+#navbar ul li {
+    
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+    font-size: 24px;
+    border-style: solid;
+    border-color: crimson;
+    background-color: white;
+
+}
+
+#navbar ul li a {
+    
+    text-decoration: none;
+    color: black;
+    overflow: auto;
+    
+}
+
+#navbar ul li:hover a{
+    
+    color: crimson;
+}
+
+#navbar ul li:hover img {
+    
+    display: inline-block;
+}
+
+/* Dropdown Menu */
+
+    
+.dropdown {
+    
+    
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    font-size: 24px;
+    background-color: white;
+}
+
+
+.dropdown a {
+    
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown li {
+    
+    border-style: none;
+    
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    top: 40px;
+    
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    
+    display: block;
+    width: 100%;
+
+}
+
+
+
+
+.dropdown:hover #navbar ul li {color: crimson;}
+
+
+.dropchoice:hover {
+    
+    color: crimson;
+}
+
+.dropchoice:hover img {
+    
+    display: block;
+}
+
+
+.content {
+    
+    background-color: white;
+    display: inline-block;
+    border-style: solid;
+    border-color: crimson;
+    padding: 5px;
+}
+
+body {
+  background-color: gold;
+}
+
+body div {
+    
+    margin-top: 10px;
+}
+p a {
+    
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+}
+
+h1 {
+    
+    text-align: center;
+}
+
+.main {
+    
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    color: crimson;
+    font-size: 1.25em;
+    font-family:fantasy;
+    border-style: solid;
+    border-color: crimson;
+    overflow: auto;
+    padding-bottom: 125px;
+}
+
+.main a {
+    
+    color: blue;
+}
+
+.main table {
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main th {
+    
+    color: black;
+    font-family: serif;
+    min-width: 200px;
+}
+
+.main h3 {
+    
+    font-family: sans-serif;
+    color: black;
+}
+.account {
+    
+    text-align: left;
+    color: black;
+    font-family: sans-serif;
+}
+
+label {
+    
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.account h3 {
+    
+    color: crimson;
+}
+
+.account input {
+    
+    min-width: 200px;
+}
+
+
+.results {
+    
+    min-height: 400px;
+}
+
+#navbar .dropdown .dropdown-content a:hover img {
+   
+    display: inline-block;
+}
+
+table, th, td {
+    
+    border: 1px solid black;
+}
+
+td {
+    
+    font-size: 14px;
+}
+
+.results td {
+    
+    width: auto;
+}
+
+.form {
+    
+    text-align: left;
+    
+}
